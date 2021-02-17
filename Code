@@ -5,9 +5,9 @@ import java.io.IOException;
 		public static void main(String[] args) {
 			
 			try {
-				FileWriter writer = new FileWriter("poem2.txt");
-				writer.write("ma fut cu mata");
-				writer.write("\n(A poem by mata");
+				FileWriter writer = new FileWriter("example.txt");
+				writer.write("input what you want here");
+				writer.write("\n(input what you want here");
 				writer.close();
 		}
 			catch (IOException e) {
