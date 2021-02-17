@@ -1,0 +1,19 @@
+import java.io.FileWriter;
+import java.io.IOException;
+
+	public class Main {
+		public static void main(String[] args) {
+			
+			try {
+				FileWriter writer = new FileWriter("poem2.txt");
+				writer.write("ma fut cu mata");
+				writer.write("\n(A poem by mata");
+				writer.close();
+		}
+			catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+	}
+
+//written and tested in Eclipse IDE
